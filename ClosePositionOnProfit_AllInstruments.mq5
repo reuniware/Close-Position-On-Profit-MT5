@@ -43,7 +43,7 @@ void OnTick()
       //printf(sname + " : profit = "+DoubleToString(profit));
       if(profit>=profitToReach)
         {
-         trade.PositionClose(Symbol());
+         trade.PositionClose(sname);
         }
      }
   }
